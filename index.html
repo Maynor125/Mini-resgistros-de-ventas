@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicacion_productos</title>
+    <!--links para las fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2? family=Abril+Fatface&family=Lato:wght@100&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-dark ">
+        <i class='bx bxs-home-heart'></i>
+        <a href="#" class="navbar-brand">
+            Tienda de productos online
+        </a>
+        <i class='bx bxs-cart'></i>
+    </nav>
+   <div class="container">
+       <div id="app" class="row pt-5 Co">
+         <div class="col-md-4" id="ContenedorS">
+            <div class="card CO">
+                <div class="card-header">
+                    <h4>Agregar productos</h4>
+                </div>
+                <form id="product-form" class="card-body">
+                      <div class="form-group">
+                          <input type="text" id="nombre" class="form-control" placeholder="Nombre de producto">
+                      </div>
+                      <div class="form-group">
+                          <input type="number" step="0.01" id="precio" placeholder="Precio de producto" class="form-control">
+                      </div>
+                      <div class="form-group">
+                         <input type="number" min="2000" value="2022" id="año" class="form-control" placeholder="Año del producto">
+                      </div>
+                      <input type="submit" value="Guardar" class="btn  btn-primary btn-block">
+                </form>
+            </div>
+         </div>
+             <div id="product-list" class="col col-md-8">
+                <div class="card cabecera">
+               <div class="card-header">
+                <h4>Tu carrito de compras</h4>
+               </div>
+                </div>
+                <div class="contlista" id="lis">
+                    <div id="lista_producto" >
+                     
+                    </div>
+                </div>
+               
+               
+             </div>
+            
+        
+       </div>
+   </div>
+   <!--?Contenido de relleno de la pagina web xdxd-->
+   <div class="contenidoextra">
+    <div class="publicidad">
+        <h2 >Tu tienda online <span>mas confiable.</span> </h2>
+        <div class="contenedorpublicidad">
+            <div class="contenedorpublicidadH">
+                <h4>Maxima seguridad en las entregas</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut eum quam voluptatibus autem cupiditate nobis, a labore, officia eius, officiis similique amet ipsa iste dolore molestiae reprehenderit cum nisi. Voluptatum dolor incidunt magnam est animi. Facere quidem necessitatibus odio iste.
+            </p>
+            <div class="linia"></div>
+            </div>
+            
+            <img src="img/undraw_accept_terms_re_lj38.svg" class="ima" alt="">
+        </div>
+        <div class="contenedorpublicidad">
+         
+            <img src="img/undraw_product_tour_re_8bai.svg" class="ima" alt="">
+            <div class="contenedorpublicidadH">
+                <h4>Compra Rapido y sencillo</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et qui a soluta ipsa voluptate similique doloremque saepe? Ducimus tempore itaque eligendi suscipit debitis explicabo! Earum consequatur blanditiis sint aut temporibus.</p>
+                <div class="linia"></div>
+            </div>
+            
+        </div>
+        <div class="contenedorpublicidad">
+            <div class="contenedorpublicidadH">
+                <h4>Solo productos de calidad</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id laboriosam repellat provident voluptas. Mollitia explicabo eaque labore in! Molestias modi adipisci cupiditate maxime nobis enim voluptas officia alias similique iste!
+            </p>
+            <div class="linia"></div>
+            </div>
+            <img src="img/undraw_transfer_money_rywa.svg" class="ima" alt="">
+        </div>
+    </div>
+   </div>
+   <script src="main.js"></script>
+   <!--!Uso de la libreria AOS-->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+
+
+.navbar
+{
+    margin-bottom: 5px;
+    background-color: #291658;
+    border-bottom: 4px 	#C0C0C0 solid;
+}
+.navbar a
+{
+    margin-left:  -42em;
+}
+.bxs-cart
+{
+    margin-right: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+.bxs-home-heart
+{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 7px;
+}
+#product-list
+{
+    height: 24em;
+    
+}
+.contlista
+{
+   
+    height: 24em;
+}
+.agrebar
+{
+    overflow-y: scroll;
+}
+.navbar a
+{
+    padding-left: 15px;
+}
+#product-form div
+{
+  margin-bottom: 15px;
+}
+
+.CO
+{
+    height: 20em;
+}
+.btn-block
+{
+    margin-top: 10px;
+    background-color: #291658;
+    border: 0;
+}
+.btn:hover
+{
+    background-color: #625091;
+}
+.bxs-trash
+{
+    font-size: 17px;
+    color: #fff;
+}
+.card-header h2
+{
+  font: "abril fatface";
+}
+.btn-danger
+{
+    margin-left: 5px;
+    border: 0;
+    background-color: #F30000;
+}
+.btn-danger:hover
+{
+    background-color: #BF0909;
+
+}
+.bx-check-circle
+{
+    font-size: 20px;
+    color: #fff;
+    
+    
+}
+.cabecera
+{
+    margin-bottom: 10px;
+}
+.cont3
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conventa
+{
+   margin-bottom: -20px;
+}
+
+/* ?configuracion para el mensaje */
+.msj p
+{
+    font-size: 20px;
+    margin-bottom: -1px;
+    margin-top: -5px;
+   
+}
+.msj
+{
+    margin-bottom: -15px;
+}
+
+/* !contenido extra de pura paja*/
+.contenidoextra
+{
+    height: 100%;
+    border-top: 5px #291658 solid;
+    background-color: #C0C0C0;
+    margin-top: 7em;
+}
+.publicidad
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.publicidad h2
+{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contenedorpublicidad{
+    margin-top: 3em;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+.ima
+{
+    width: 40%;
+    height: 30%;
+}
+.publicidad h2
+{
+    color: #291658;
+}
+.publicidad h2 span
+{
+    color:  #58C9C8;
+}
+.contenedorpublicidadH p ,h4 ,img
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+.contenedorpublicidad img
+{
+   
+}
+.linia
+{
+    height: 6px;
+    width: 90%;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    border-radius: 40px;
+    margin-left: 35px;
+    margin-top: -5px;
+}
+
